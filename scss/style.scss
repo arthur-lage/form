@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.5rem;
+
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#0f00ff, #635ebb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    color: #222;
+    font-weight: 500;
+    font-size: 2.4rem;
+  }
+}
+
+.register-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 5rem;
+    height: 68.6rem;
+    margin: auto;
+    margin-top: 3.9rem;
+    width: 75vw;
+    border-radius: 1rem;
+    background: rgb(219, 217, 255, .75);
+    box-shadow: 0 2.1rem 1.4rem 0 rgba(0, 0, 0, 0.25);
+
+    .illustration {
+        margin-left: 6.2rem;
+    }
+}
+
+.icons {
+  .icon {
+    position: absolute;
+
+    &.wave {
+      top: 0;
+      left: 0;
+    }
+
+    &.big-circle {
+        right: 0;
+        bottom: 0;
+    }
+
+    &.light-circle {
+        top: 5.6rem;
+        right: 25.3rem;
+    }
+
+    &.dark-circle {
+        right: 3.5rem;
+        top: 23.7rem;
+    }
+
+    &.star {
+        left: 5rem;
+        bottom: 5rem;
+    }
+  }
+}
